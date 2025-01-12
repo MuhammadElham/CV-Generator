@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input_container {
+    font-size: 20px;
+}
+
+
+.label input {
+    font-size: 20px;
+    padding: 6px 10px;
+    border-radius: 7px;
+}
+
+.input_container label {
+    margin-bottom: 50px;
+}
+
+.label {
+    margin-bottom: 15px;
+}
+
+.input_container button {
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+}

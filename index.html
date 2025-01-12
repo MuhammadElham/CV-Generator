@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Enter Details</h1>
+      <div class="input_container">
+        <!-- All Labels -->
+        <div class="label label0">
+          <input type="file" id="myFile" name="filename" />
+        </div>
+        <div class="label label1">
+          <label>First Name: </label>
+          <input id="firstName" type="text" placeholder="Enter your first name" /><br />
+        </div>
+        <div class="label label2">
+          <label>Last Name: </label>
+          <input id="secondName" type="text" placeholder="Enter your second name"/><br />
+        </div>
+        <div class="label label3">
+          <label>Quailification: </label>
+          <input id="qualification" type="text" placeholder="Enter your qualification"/><br />
+        </div>
+        <div class="label label4">
+          <label>Email: </label>
+          <input id="email" type="email" placeholder="Enter your email address"/><br />
+        </div>
+
+        <!-- Button -->
+        <button onclick="generate()">Generate</button>
+      </div>
+    </header>
+    <script src="index.js"></script>
+  </body>
+</html>

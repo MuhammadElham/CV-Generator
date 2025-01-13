@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Welcome to Template 2</h1>
+    <script type="module">
+      import { generate } from "../index.js";
+      const savedData = JSON.parse(localStorage.getItem("userData"));
+      console.log(savedData.firstName);
+      console.log(savedData.secondName);
+      console.log(savedData.qualification);
+      console.log(savedData.email);
+      console.log(savedData.description);
+    </script>
+  </body>
+</html>

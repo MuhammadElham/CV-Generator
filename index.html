@@ -31,11 +31,17 @@
           <label>Email: </label>
           <input id="email" type="email" placeholder="Enter your email address"/><br />
         </div>
+        <div class="label label5">
+          <textarea id="description" rows="8" cols="50" placeholder="Write your description..."></textarea>            
+        </div>
 
         <!-- Button -->
-        <button onclick="generate()">Generate</button>
+        <button id="generateBtn">Generate</button>
       </div>
     </header>
-    <script src="index.js"></script>
+    <script type="module">
+      import { generate } from "./index.js"; 
+      document.getElementById("generateBtn").addEventListener("click", generate);
+    </script>
   </body>
 </html>

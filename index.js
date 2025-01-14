@@ -16,9 +16,13 @@
 // export { generate };
 function generate() {
   const fileInput = document.getElementById("myFile");
+  if (!fileInput.files[0]) {
+    alert("Please upload an image!");
+    return;
+  }
   const reader = new FileReader();
 
-  reader.onloadend = function() {
+  reader.onloadend = function () {
     const saveData = {
       myFile: reader.result, // Base64 image data
       firstName: document.getElementById("firstName").value,

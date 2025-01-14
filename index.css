@@ -17,8 +17,8 @@ header {
 }
 
 h1 {
-    margin-bottom: 85px;
-    font-size: 75px;
+    margin-bottom: 20px;
+    font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -28,28 +28,28 @@ h1 {
 
 
 .label input {
-    font-size: 30px;
+    font-size: 16px;
     padding: 6px 10px;
     border-radius: 7px;
 }
 
 .input_container label {
-    margin-bottom: 50px;
-    font-size: 32px;
+    font-size: 20px;
 }
 
 .label {
-    margin-bottom: 42px;
+    margin-bottom: 20px;
 }
 
 .input_container button {
-    font-size: 28px;
-    padding: 12px 26px;
+    font-size: 18px;
+    padding: 6px 12px;
     border-radius: 7px;
     cursor: pointer;
 }
-.label textarea{
-    font-size: 32px;
+
+.label textarea {
+    font-size: 18px;
     padding: 12px;
     border-radius: 10px;
     text-align: left;
